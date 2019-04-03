@@ -48,7 +48,7 @@
             </objects>
             <point key="canvasLocation" x="1577" y="132"/>
         </scene>
-        <!--Todoey-->
+        <!--Items-->
         <scene sceneID="gVo-55-5BG">
             <objects>
                 <tableViewController id="uvM-as-20t" customClass="TodoListViewController" customModule="Todoey" customModuleProvider="target" sceneMemberID="viewController">
@@ -79,7 +79,7 @@
                             <outlet property="delegate" destination="uvM-as-20t" id="7Cd-uB-TXf"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Todoey" id="mGA-I5-m9V">
+                    <navigationItem key="navigationItem" title="Items" id="mGA-I5-m9V" userLabel="Items">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="ewp-FS-Kdg">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
